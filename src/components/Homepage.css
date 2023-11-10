@@ -1,0 +1,46 @@
+.navigationBar{
+    background-color: grey;
+    height:70px;
+}
+.navbarcontents{
+    display: flex;
+    margin-left: 38vw;
+    align-items: center;
+    color: white;
+    height:100%;
+}
+.navbarcontents p{
+    border-radius: 50px;
+    background-color: green;
+    height: 40px;
+    width:40px;
+    margin-left: 40px;
+    text-align: center;
+    color:black;
+    font-weight: bolder;
+    text-decoration:none;
+    font-size: x-large;
+}
+p:hover{
+    background-color: black;
+    color: white;
+    cursor: pointer;
+
+}
+
+#logout{
+    margin-left:30vw;
+    height:35px;
+    width: 100px;
+}
+
+.addContact{
+    position: absolute;
+    top: 0px;
+    left: 40vw;
+}
+#addcontact{
+    height: 40px;
+    width: 80px;
+    margin-left: 100px;
+}

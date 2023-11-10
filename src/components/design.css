@@ -1,0 +1,336 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#headername {
+    color: rgb(54, 54, 190);
+    text-align: center;
+    line-height: 80px;
+    display: inline-block;
+    margin-left: 43vw;
+}
+
+.header {
+    background-color: black;
+    height: 89px;
+    width: 100vw;
+    font-size: 40px;
+    position: relative;
+
+}
+
+.addnew {
+
+    background-color: #45597e;
+    height: 64px;
+    width: 74px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-left: 30vw;
+}
+
+.addnew p {
+    text-align: center;
+}
+
+.addnew:hover {
+    background-color: green;
+    cursor: pointer;
+}
+
+.contactdetails {
+    background-color: #9ED9A0;
+    height: 111px;
+    width: 99vw;
+    margin: 10px 9px 10px 9px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+
+.detailspart1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 67vw;
+}
+
+.detailcontainer {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+#contactimgage {
+    margin-left: 10vw;
+    margin-top: 18px;
+    height: 22px;
+    width: 26px;
+
+}
+
+#contactname {
+    width: 20vw;
+    height: 40px;
+    /* border: 1px solid black; */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 6px;
+    margin-left: 1vw;
+    margin-top: 5px;
+    font-size: 32px;
+    line-height: .85;
+}
+
+
+#workplaceimgage {
+    margin-left: 10vw;
+    margin-top: 18px;
+    height: 22px;
+    width: 26px;
+
+}
+
+
+#workplacename {
+    width: 20vw;
+    height: 40px;
+    /* border: 1px solid black; */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 6px;
+    margin-left: 1vw;
+    margin-top: 5px;
+}
+
+#phonenumber {
+    width: 20vw;
+    height: 40px;
+    /* border: 1px solid black; */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 6px;
+    margin-left: 10vw;
+    margin-top: 5px;
+    font-size: 32px;
+}
+
+#emailimgage {
+    margin-left: 10vw;
+    margin-top: 18px;
+    height: 22px;
+    width: 26px;
+}
+
+#contactemail {
+    width: 20vw;
+    height: 40px;
+    /* border: 1px solid black; */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 6px;
+    margin-left: 1vw;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+#phoneimage {
+    margin-left: 10vw;
+    margin-top: 18px;
+    height: 22px;
+    width: 26px;
+}
+
+#phonenumber {
+    width: 20vw;
+    height: 40px;
+    /* border: 1px solid black; */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 6px;
+    margin-left: 1vw;
+    margin-top: 5px;
+    line-height: .85;
+
+}
+
+
+.detailspart2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 28vw;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.editcontact {
+
+    background-color: #b6becc;
+    height: 74px;
+    width: 74px;
+    border-radius: 50%;
+}
+
+.editcontact p {
+    text-align: center;
+    margin-top: 3px;
+    font-size: 40px;
+}
+
+.editcontact:hover {
+    cursor: pointer;
+    background-color: rgb(41, 150, 99);
+}
+
+#editcontactimage {
+    height: 33px;
+    width: 33px;
+    margin-top: 21px;
+    margin-left: 22px;
+}
+
+.deletecontact {
+
+    background-color: #b6becc;
+    height: 74px;
+    width: 74px;
+    border-radius: 50%;
+    margin-left: 40px;
+}
+
+.deletecontact:hover {
+    cursor: pointer;
+    background-color: rgb(206, 74, 74);
+}
+
+.deletecontact p {
+    text-align: center;
+    margin-top: 3px;
+    font-size: 40px;
+}
+
+#deletecontactimage {
+    height: 33px;
+    width: 33px;
+    margin-top: 19px;
+    margin-left: 21px;
+}
+
+.addoreditcontact {
+    height: 360px;
+    width: 400px;
+    background-color: rgb(162, 162, 204);
+    border: 2px solid black;
+    border-radius: 10px;
+    position: fixed;
+    left: 40vw;
+    top: 31vh;
+}
+
+#addoreditform {
+    padding: 10px;
+}
+
+#nameaddoredit {
+    height: 50px;
+    width: 380px;
+    border-radius: 10px;
+}
+
+#emailaddoredit {
+    height: 50px;
+    width: 380px;
+    border-radius: 10px;
+}
+
+#phoneaddoredit {
+    height: 50px;
+    width: 380px;
+    border-radius: 10px;
+}
+
+#companyaddoredit {
+    height: 50px;
+    width: 380px;
+    border-radius: 10px;
+}
+
+#formbutton{
+    padding:5px;
+    margin-top: 10px;
+    margin-left: 92px;
+    background-color: green;
+    border-radius: 5px;
+    box-shadow: #45597e; 
+    display: inline-block;
+}
+#formcancelbutton{
+    padding:5px;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: green;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+
+.addcontact{
+    height: 360px;
+    width: 400px;
+    background-color: rgb(162, 162, 204);
+    border: 2px solid black;
+    border-radius: 10px;
+    position: fixed;
+    left: 40vw;
+    top: 31vh;
+}
+#addform {
+    padding: 10px;
+}
+#nameadd{
+    height: 50px;
+    width: 380px;
+    border-radius: 10px;
+}
+
+#emailadd {
+    height: 50px;
+    width: 380px;
+    border-radius: 10px;
+}
+
+#phoneadd {
+    height: 50px;
+    width: 380px;
+    border-radius: 10px;
+}
+
+#companyadd {
+    height: 50px;
+    width: 380px;
+    border-radius: 10px;
+}
+#formaddbutton{
+    padding:5px;
+    padding-left: 26px;
+    padding-right:26px;
+    margin-top: 10px;
+    margin-left: 92px;
+    background-color: green;
+    border-radius: 5px;
+    box-shadow: #45597e; 
+    display: inline-block;
+}
+#formcancelbutton{
+    padding:5px;
+    padding-left: 20px;
+    padding-right:20px;
+    margin-top: 10px;
+    margin-left: 20px;
+    background-color: green;
+    border-radius: 5px;
+    display: inline-block;
+}
