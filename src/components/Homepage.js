@@ -242,7 +242,7 @@ function Homepage() {
                     </div>
                 </div>
             </div>
-            {/* even thought the below block is named addContact , it is for editing contact */}
+
             <div className="addContact" style={{ display: edittoggle ? "inline" : "none" }}>
                 <div className="loginFormContainer">
                     <div className="loginForm" >
@@ -263,4 +263,4 @@ function Homepage() {
         </>
     );
 }
-export default Homepage;
+export default Homepage;   
